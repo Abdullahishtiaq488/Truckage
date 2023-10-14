@@ -22,7 +22,7 @@ const Blog = () => {
   }, []);
 
   return (
-    <>
+    <><div className='blogee'>
       <Link className='blog-goBack' to='/blogs'>
         <span> &#8592;</span> <span>Go Back</span>
       </Link>
@@ -45,6 +45,7 @@ const Blog = () => {
       ) : (
         <EmptyList />
       )}
+      </div>
     </>
   );
 };
