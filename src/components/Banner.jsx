@@ -16,12 +16,12 @@ export const Banner = () => {
                 <Col sm={12} md={6} xl={6}>
                   <FaHeadphonesAlt
                     className="pt-2 mt-2 my-2 icon"
-                    color="#262262"
+                    
                     fontSize="5em"
                   />
                 </Col>
                 <Col sm={12} md={6} xl={6}>
-                  <h4>CALL CENTER</h4>
+                  <h2>CALL CENTER</h2>
                   <p>
                     Give us a free call <br />
                     +1 (980) 485-5274
@@ -35,12 +35,12 @@ export const Banner = () => {
                 <Col sm={12} md={6} xl={6}>
                   <FaCalendarAlt
                     className="pt-2 mt-2 my-2 icon"
-                    color="#262262"
+                    
                     fontSize="5em"
                   />
                 </Col>
                 <Col sm={12} md={6} xl={6}>
-                  <h4>WORKING HOURS</h4>
+                  <h2>WORKING HOURS</h2>
                   <p>Mon-Sat: 7AM-5PM Sunday: 9AM-3PM</p>
                 </Col>
               </Row>
@@ -50,12 +50,12 @@ export const Banner = () => {
                 <Col sm={12} md={6} xl={6}>
                   <FaSearchLocation
                     className="pt-2 mt-2 my-2 icon"
-                    color="#262262"
+                  
                     fontSize="5em"
                   />
                 </Col>
                 <Col sm={12} md={6} xl={6}>
-                  <h4>TRIP PLANNING</h4>
+                  <h2>TRIP PLANNING</h2>
                   <p>
                     Efficient <br />
                     Trip Planning
@@ -68,12 +68,12 @@ export const Banner = () => {
                 <Col sm={12} md={6} xl={6}>
                   <RiPinDistanceFill
                     className="pt-2 mt-2 my-2 icon"
-                    color="#262262"
+                    
                     fontSize="5em"
                   />
                 </Col>
                 <Col sm={12} md={6} xl={6}>
-                  <h4>Long Distance</h4>
+                  <h2>Long Distance</h2>
                   <p>Long Distance move for OTR Carriers.</p>
                 </Col>
               </Row>

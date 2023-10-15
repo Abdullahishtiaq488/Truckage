@@ -110,7 +110,7 @@ export const Testimon = () => {
               <Carousel.Item>
                 <div className="mytext">
                   <FaQuoteLeft
-                    color="orangered"
+                    color="#ED1C24"
                     className="float-start"
                     fontSize="2em"
                   />

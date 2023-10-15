@@ -15,11 +15,15 @@ import { AiFillDollarCircle } from "@react-icons/all-files/ai/AiFillDollarCircle
 export const Services = () => {
   return (
     <section className="Services p-2">
+
+      <br />
+      <br />
+      <br />
       <div className="products-heading">
         <h2>Our Services</h2>
         <p>
           At TDS, you call the shots – We Work for You! Just consider us your
-          remote administrative team. You make the ultimate call on where to be
+          remote administrative team.You make the ultimate call on where to be
           dispatched; with our flat rate fee you you keep 100% of the payload.
           The only thing you have to worry about is the venues you choose &
           looking good doing it!

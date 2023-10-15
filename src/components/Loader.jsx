@@ -1,12 +1,12 @@
-import { Container } from "react-bootstrap";
+
 import { Puff } from "react-loader-spinner";
 
 export const Loading = () => {
   return (
     <div className="Data">
       <Puff
-        height="130"
-        width="130"
+        height="110"
+        width="110"
         radius="10"
         color="midnightblue"
         ariaLabel="loading"

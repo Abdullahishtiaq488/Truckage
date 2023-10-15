@@ -1,10 +1,17 @@
+import { useEffect } from "react";
 import { Col, Container, Row } from "react-bootstrap";
 import "../about.css";
+
 import Jango from "../assets/img/jango-truck.jpg";
 import Jangol from "../assets/img/jangol-truck.jpg";
 import { GiCutDiamond } from "@react-icons/all-files/gi/GiCutDiamond.esm";
 
 const About = () => {
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   return (
     <section className="About" id="aboutus">
 

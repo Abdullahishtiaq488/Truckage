@@ -63,6 +63,7 @@
 }
 
 .app__navbar-login a:hover {
+    padding-bottom: 2px;
     border-bottom: 1px solid orangered;
 }
 

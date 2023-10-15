@@ -1,5 +1,7 @@
 .blogee{
   background-color: white;
+  margin: 0px;
+  border: 1px solid white;
 }
 
 .blog-wrap {
@@ -12,7 +14,6 @@
   font-size: 0.8rem;
   color: #a9a9a9;
   font-weight: 500;
-  margin-bottom: 2rem;
   display: block;
 }
 .blog-wrap header {

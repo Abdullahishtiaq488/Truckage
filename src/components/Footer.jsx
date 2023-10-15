@@ -57,7 +57,6 @@ import "../Footer.css";
          <p><b>Monday-Saturday</b>: 9am to 5pm<br />
            <b>Sunday</b>: Closed</p>
 
-         <p><b>Address</b>: 4-km, Main G.T Road Muridke. (39000), Punjab, Pakistan.</p>
          <p>
            <b>UK Address </b>: Salt land LTD
            84 Katherine road London E6 1EN United Kingdom</p>

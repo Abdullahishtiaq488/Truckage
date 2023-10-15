@@ -1,9 +1,14 @@
-/************ Custom Font ************/
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Upright:wght@300;400;500;600;700&family=Open+Sans:wght@300;400;500;600;700&display=swap');
 
-@font-face {
-	font-family: Raleway;
-	src: url('./FONTS/static/Raleway-Regular.ttf');
-	
+
+html,
+body,
+* {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif, Open Sans, Cormorant Upright;
+  box-sizing: border-box;
 }
 
 /************ Default Css ************/
@@ -17,45 +22,35 @@
 
 
 html {
-  scroll-behavior: smooth;
+  scroll-behavior: inherit;
   scroll-padding-top: 75px;
- 
- 
 }
 
-body {
 
-  font-weight: 400;
+body {
   overflow-x: hidden;
   position: relative;
   color: black !important;
   font-family: 'Centra', sans-serif !important;
-  height: max-content;
   background-color: white;
 }
 #root{
-  height: 100%;
-  
-  width: 100%;
-  background-image: url("../src/assets/img/wp3704704-logistics-wallpapers.jpg");
 
+  background-image: url("../src/assets/img/wp3704704-logistics-wallpapers.jpg");
     background-position: center;
     background-size: cover;
     background-repeat: repeat;
    background-attachment: fixed;
   
 }
-.App{
-  height: 100%;
-  
-  }
+
 
 body p{
-  font-family: Gothic;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-weight: 600;}
 
   body ,h2,h3,h5,h6{
-    font-family: Raleway;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: 600;}
 
 h1, h2, h3, h4, h5, h6 {
@@ -73,6 +68,11 @@ p, a, li, button, ul {
   padding: 0;
   line-height: normal;
   text-decoration: none;
+}
+
+a {
+  color: inherit;
+  text-decoration: none!important;
 }
 
 a:hover {
@@ -121,7 +121,7 @@ input:focus, textarea:focus, select:focus {
   margin-top: 0; 
   background-repeat: no-repeat;
   overflow: hidden;
-  font-family: RobotoSlab;
+  font-family: Arial, Helvetica, sans-serif;
   font-size: 16px;
 }
 
@@ -233,27 +233,32 @@ font-size: 16px;
   text-align: center;
   justify-content: center;
   transition: 3s ease;
+  text-align: center;
+  color: midnightblue;
   
 }
 
 .Banner .BannerContainer p{
-  color: grey;
-  font-size: 14px;
-  font-weight: bold;
-  font-family: Gothic;
+  color: black;
+  font-size: 12px;
 }
 
-.Banner .BannerContainer h4{
-  font-weight: bold;
-  font-family: RobotoSlab;
+.Banner .BannerContainer h2{
+  
+    font-size: 24px;
+    font-weight: 800;
+  
 }
 
 .Banner .BannerContainer .icon:hover{
-  font-size: 6em;
   text-align: top;
+  color: #ED1C24;
+  transform: scale(1.3,1.3);
 }
 
 .Banner .BannerContainer .icon{
+  color: midnightblue;
+  transition: 1s ease;
  text-align: center;
  margin-left: 30px;
 }
@@ -265,8 +270,8 @@ font-size: 16px;
   text-align: center;
   margin: 40px 0px;
   color: #324d67;
-  padding-left: 50px;
-  padding-right: 50px;
+  padding-left: 20%;
+  padding-right: 20%;
 
 }
 
@@ -276,8 +281,9 @@ font-size: 16px;
 }
 
 .products-heading p {
+  color: black!important;
   font-size: 16px;
-  font-weight: 200;
+  font-weight: 400;
 }
 
 
@@ -306,8 +312,6 @@ font-size: 16px;
   background-repeat: no-repeat;
   background-color: white;
   height: auto + 350px;
-  font-family: Gothic;
-  font-weight: 600;
 
 }
 
@@ -349,7 +353,7 @@ font-size: 16px;
 .Services .myContainer .clr{
   background-color: midnightblue;
   color: rgb(235, 232, 232);
-  border-radius: 10px;
+  transition: 1s ease;
   }
 
   .Services .myContainer .clr:hover{
@@ -389,7 +393,6 @@ font-size: 16px;
   padding: 300px 0 300px 0px;
   background-repeat: no-repeat;
   background-color: white;
-  font-family: RobotoSlab;
 }
 
 
@@ -402,6 +405,7 @@ font-size: 16px;
   width: 100%;
   border: 5px solid black;
   height: auto;
+  overflow: hidden;
   
 }
 
@@ -416,27 +420,73 @@ font-size: 16px;
 
 
 
-.Plan .PlanContainer{
+.Plan .Plan-container{
  
- text-align: center;
- color: white;
- overflow: hidden;
  display: flex;
-justify-content: center;
-align-items: center;
+ flex-direction: row;
+ align-items: center;
+ justify-content: center;
+ gap: 20px;
+ color:white;
+ padding: 30px;
+ border: 1px solid white;
+ transition: 1s ease;
 }
 
-.Plan .PlanContainer .btn3{
+.Plan .Plan-container .Container-items{
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid white;
+  padding: 30px;
+  width: 330px;
+  height: auto;
+  transition: 1s ease;
+}
+.Plan .Plan-container .Container-items:hover{
+  
+transform: scale(1.07,1.07);
+ }
+
+ .Plan .Plan-container .Container-items h3{
+  text-align: center;
+  height: 50px;
+  margin-bottom: 20px;
+ }
+ .Plan .Plan-container .Container-items p{
+  height: 40px;
+ }
+ .Plan .Plan-container .Container-items .button-plan{
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ }
+
+
+.Plan .Plan-container .btn3{
   border: 1px #ED1C24 solid;
   background-color: transparent;
   color: #ED1C24;
 }
 
-.Plan .PlanContainer .btn3:hover {
+.Plan .Plan-container .btn3:hover {
   background-color: #ED1C24 ;
   color: white;
 
 }
+
+@media (max-width: 768px) {
+  .Plan .Plan-container{
+ 
+    flex-direction: column;
+    padding: 20px;
+    
+   }
+ 
+}
+
+
 
 
 .Production{
