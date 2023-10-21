@@ -42,7 +42,7 @@ import "../Footer.css";
        <div className="column">
          <h4>Our Location</h4>
          <hr />
-         <p>Connect with us on Facebook</p>
+         <div><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2984.1983430900523!2d-73.05969619999999!3d41.58659169999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89e7c06c356b9d53%3A0x857c1c22af1d2ba0!2s245%20Colonial%20Ave%20%231a%2C%20Waterbury%2C%20CT%2006704%2C%20USA!5e0!3m2!1sen!2s!4v1697921522153!5m2!1sen!2s" width="250" height="200" style={{border:"0px"}} allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
        </div>
        <div className="column">
          <h4>Contact Us</h4>
@@ -58,8 +58,7 @@ import "../Footer.css";
            <b>Sunday</b>: Closed</p>
 
          <p>
-           <b>UK Address </b>: Salt land LTD
-           84 Katherine road London E6 1EN United Kingdom</p>
+           <b>Address </b>: 245 Colonial Ave, Unit 1A, Waterbury, CT 06704</p>
        </div>
      </div>
 
